@@ -6,6 +6,7 @@ WScript.Sleep 5000
 
 'loop through with sleep
 'keep 50 millisecond sleep in there so that wscript doesn't mess up
+'keep mouse moving in vm to keep it from clicking out
 row = 0
 Do Until file.AtEndOfStream
 	line = file.ReadLine
